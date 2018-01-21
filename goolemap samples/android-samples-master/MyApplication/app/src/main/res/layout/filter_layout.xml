@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#333333">
+
+        <Button
+            android:id="@+id/filter_bt_scene"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/scene" />
+
+        <Button
+            android:id="@+id/filter_bt_pagoda"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/filter_bt_scene"
+            android:layout_margin="5dp"
+            android:background="@drawable/pagoda" />
+
+        <Button
+            android:id="@+id/filter_bt_restaurent"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/filter_bt_pagoda"
+            android:layout_margin="5dp"
+            android:background="@drawable/atm" />
+
+        <Button
+            android:id="@+id/filter_bt_atm"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/filter_bt_pagoda"
+            android:layout_margin="5dp"
+            android:background="@drawable/atm" />
+
+        <Button
+            android:id="@+id/bt_ftFuel"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/filter_bt_atm"
+            android:layout_margin="5dp"
+            android:background="@drawable/fuel" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/filter_bt_in"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/in" />
+
+
+</RelativeLayout>

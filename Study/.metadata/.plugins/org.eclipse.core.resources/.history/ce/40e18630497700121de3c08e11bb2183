@@ -1,0 +1,8 @@
+package tranduythanh.com;
+
+import android.content.Context;
+import android.content.Intent;
+
+public class NewIntent extends Intent {
+	public Context glbCtx;
+}

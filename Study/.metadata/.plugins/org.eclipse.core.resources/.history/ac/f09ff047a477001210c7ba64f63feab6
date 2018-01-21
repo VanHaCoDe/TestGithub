@@ -1,0 +1,52 @@
+package tranduythanh.com;
+
+import org.ksoap2.SoapEnvelope;
+import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
+import org.ksoap2.serialization.SoapSerializationEnvelope;
+import org.ksoap2.transport.HttpTransportSE;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.EditText;
+
+public class MainActivity extends Activity {
+
+	EditText txtsoluong,txtdongia,txttinhtien;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+	public void doTinhTien(){
+		try{
+			final String NAMESPACE="http://tranduythanh.com/";
+			final String METHOD_NAME="getMoney";
+			final String SOAP_ACTION=NAMESPACE+METHOD_NAME;
+			final String URL="http://192.168.3.102/ProductWebService/" +
+								"ProductWebService.asmx?WSDL";
+			SoapObject request=new SoapObject(NAMESPACE, METHOD_NAME);
+			SoapSerializationEnvelope envelope=
+					new SoapSerializationEnvelope(SoapEnvelope.VER11);
+			envelope.dotNet=true;
+			envelope.setOutputSoapObject(request);
+			
+			HttpTransportSE androidHttpTransport=
+					new HttpTransportSE(URL);
+			androidHttpTransport.call(SOAP_ACTION, envelope);
+			SoapPrimitive response=(SoapPrimitive) envelope.getResponse();
+			txttinhtien.setText(response.toString());
+		}
+		catch(Exception e)	{
+			e.printStackTrace();
+		}
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

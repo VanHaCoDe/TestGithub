@@ -1,0 +1,62 @@
+package tranduythanh.com;
+
+import java.io.FileOutputStream;
+import java.util.Calendar;
+
+import android.hardware.Camera;
+import android.os.Bundle;
+import android.os.Environment;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+	CameraSurfaceView cameraView = null;
+	Button btn,btnadd;
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		btn=(Button) findViewById(R.id.btncapture);
+		btn.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				doCamera();
+			}
+		});
+		btnadd=(Button) findViewById(R.id.btnaddview);
+		btnadd.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				cameraView=new CameraSurfaceView(getApplicationContext());
+				LinearLayout ll=(LinearLayout) findViewById(R.id.LinearLayout1);
+				ll.addView(cameraView);
+			}
+		});
+	}
+	public void doCamera()
+	{
+		cameraView.capture(new Camera.PictureCallback() {
+			@Override
+			public void onPictureTaken(byte[] data, Camera camera) {
+				FileOutputStream fos;
+				try {
+					Calendar cal=Calendar.getInstance();
+					String filename="hinhtm_"+cal.getTimeInMillis()+".jpg";
+					String path=Environment
+							.getExternalStorageDirectory()
+							.getAbsolutePath()+"/"+filename;
+					fos=new FileOutputStream(path);
+					fos.write(data);
+					fos.close();
+					Toast.makeText(MainActivity.this, "OK\n"+path, Toast.LENGTH_LONG).show();
+				} catch (Exception e) {
+					Toast.makeText(MainActivity.this, e.toString(), Toast.LENGTH_LONG)
+					.show();
+				}
+			}
+		});
+
+	}
+}

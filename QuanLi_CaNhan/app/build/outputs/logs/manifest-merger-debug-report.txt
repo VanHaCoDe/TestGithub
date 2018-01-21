@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:11:5-55:19
+	android:label
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.thudemo.MainActivity
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:17:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.thudemo.KhoanChi_acitive
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:25:9-26:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:26:13-64
+activity#com.example.thudemo.KhoanNo_acitivite
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:27:10-28:67
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:28:13-65
+activity#com.example.thudemo.KhoanThu_acitive
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:29:10-30:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:30:13-64
+activity#com.example.thudemo.khoanvay_activite
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:31:10-32:67
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:32:13-65
+activity#com.example.thudemo.TheLoaiChi
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:33:10-34:60
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:34:13-58
+activity#com.example.thudemo.Thongke_acitive
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:35:12-36:65
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:36:13-63
+activity#com.example.thudemo.TheLoaiT_acitivity
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:37:10-38:68
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:38:13-66
+activity#com.example.thudemo.TheLoai_acitivite
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:39:10-40:67
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:40:13-65
+activity#com.example.thudemo.TimKiem_Khoanno
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:41:11-42:65
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:42:13-63
+activity#com.example.thudemo.TimKiem_activite
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:43:12-44:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:44:13-64
+activity#com.example.thudemo.TimKiem_khoanchi
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:45:13-46:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:46:13-64
+activity#com.example.thudemo.TimKiem_khoanthu
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:47:14-48:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:48:13-64
+activity#com.example.thudemo.Timkiem_KhoanVay
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:49:15-50:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:50:13-64
+activity#com.example.thudemo.Thongke_khoanvay
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:51:15-52:66
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:52:13-64
+activity#org.achartengine.GraphicalActivity
+ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:54:9-71
+	android:name
+		ADDED from D:\Studing\Android\Project\QuanLi_CaNhan\app\src\main\AndroidManifest.xml:54:20-69

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_voice"
+        android:layout_margin="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Language Output"
+            android:textColor="@android:color/background_light" />
+
+        <Spinner
+            android:id="@+id/sp_lgOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:background="@android:color/holo_blue_light" />
+
+        <TextView
+            android:id="@+id/tv_output"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:gravity="center"
+            android:hint="Output"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/tv_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:gravity="center"
+            android:hint="Input"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/bt_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="@android:drawable/presence_invisible"
+        android:src="@drawable/bt_speech" />
+
+
+    <ImageButton
+        android:id="@+id/bt_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/presence_invisible"
+        android:src="@drawable/speeck_to_text" />
+
+    <ProgressBar
+        android:id="@+id/pb_conversation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

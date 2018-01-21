@@ -1,0 +1,43 @@
+package tranduythanh.com;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.telephony.TelephonyManager;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MainActivity extends Activity implements OnClickListener {
+
+	Button btncallstate;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		btncallstate=(Button) findViewById(R.id.btnrequestingcallstate);
+		btncallstate.setOnClickListener(this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+	@Override
+	public void onClick(View arg0) {
+		if(arg0==btncallstate)
+		{
+			doRequestingCallState();
+		}
+	}
+	public void doRequestingCallState()
+	{
+		TelephonyManager telManager = (TelephonyManager)
+				getSystemService(TELEPHONY_SERVICE);
+		
+	}
+
+}

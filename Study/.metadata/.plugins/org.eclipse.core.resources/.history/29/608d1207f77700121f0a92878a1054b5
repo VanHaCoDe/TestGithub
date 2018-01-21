@@ -1,0 +1,51 @@
+package tranduythanh.com;
+
+import android.os.Bundle;
+import android.os.StrictMode;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+
+public class MainActivity extends Activity implements OnClickListener{
+
+	EditText txtcateid,txtcatename;
+	Button btninsertcate,btnlistcate;
+	ListView lvlistcatalog;
+	final String URL="http://192.168.3.102/ProductWebService/" +
+			"ProductWebService.asmx?WSDL";
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		StrictMode.ThreadPolicy policy = new 
+				StrictMode.ThreadPolicy.Builder()
+							.permitAll().build();
+		StrictMode.setThreadPolicy(policy); 
+		
+		txtcateid=(EditText) findViewById(R.id.editcateid);
+		txtcatename=(EditText) findViewById(R.id.editcatename);
+		btninsertcate=(Button) findViewById(R.id.btninsertcate);
+		btnlistcate=(Button) findViewById(R.id.btnshowlist);
+		btninsertcate.setOnClickListener(this);
+		btnlistcate.setOnClickListener(this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\Studing\Android\Project\QuanLi_CaNhan2\app\libs\achartengine-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="F:\Studing\Android\Project\QuanLi_CaNhan2\app\build\intermediates\pre-dexed\debug\achartengine-1.0.0_33150f8396c4c89a886676531ca16637ead90722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\Studing\Android\Project\QuanLi_CaNhan2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d817c4c5018f3e549b2d922865ff31464a26ccc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\Studing\Android\Project\QuanLi_CaNhan2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_d817c4c5018f3e549b2d922865ff31464a26ccc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Studing\Android\Project\QuanLi_CaNhan2\app\libs\achartengine-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b2bb0af9f390c0edd4d7d95f613f38da3abe0144">
+        <dex dex="F:\Studing\Android\Project\QuanLi_CaNhan2\app\build\intermediates\pre-dexed\debug\achartengine-1.0.0_33150f8396c4c89a886676531ca16637ead90722.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,8 @@
+com.android.ide.eclipse.adt.attrSort=logical
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.lintSeverities=ExportedService\=IGNORE,HardcodedText\=IGNORE
+com.android.ide.eclipse.adt.sdk=E\:\\Software\\adt-bundle-windows-x86\\sdk
+com.android.ide.eclipse.adt.xmlEditor=true
+design.palette.flyout.width=196
+design.structure.flyout.width=228
+eclipse.preferences.version=1

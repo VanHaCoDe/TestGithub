@@ -1,0 +1,47 @@
+package tranduythanh.com;
+
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.EditText;
+
+public class ProximitySensorActivity extends Activity 
+		implements SensorEventListener{
+	SensorManager sensorManager;
+	Sensor sensor;
+	EditText txtName,txtMax,txtReading;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_proximity_sensor);
+		txtName=(EditText) findViewById(R.id.editProximityName);
+		txtMax=(EditText) findViewById(R.id.editProximityMaxRange);
+		txtReading=(EditText) findViewById(R.id.editProximityReading);
+	}
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+	}
+	@Override
+	public void onAccuracyChanged(Sensor sensor, int accuracy) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onSensorChanged(SensorEvent event) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

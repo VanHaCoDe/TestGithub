@@ -1,0 +1,63 @@
+package tranduythanh.com;
+
+import java.io.IOException;
+import java.util.List;
+
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+	public void doGeoCodingFromLocation()
+	{
+		Location location=new Location("Fake location");
+		location.setLatitude(-12.4);
+		location.setLongitude(100.114);
+		if (Geocoder.isPresent()) {
+			Geocoder coder = new Geocoder(this);
+			try {
+				List<Address> addresses = coder.getFromLocation(
+						location.getLatitude(), location.getLongitude(), 3);
+				if (addresses != null) {
+					for (Address namedLoc : addresses) {
+						String placeName = namedLoc.getLocality();
+						String featureName = namedLoc.getFeatureName();
+						String country = namedLoc.getCountryName();
+						String road = namedLoc.getThoroughfare();
+						locInfo.append(String.format("[%s][%s][%s][%s]\n",
+								placeName, featureName, road, country));
+						int addIdx = namedLoc.getMaxAddressLineIndex();
+						for (int idx = 0; idx <= addIdx; idx++) {
+							String addLine = namedLoc.getAddressLine(idx);
+							locInfo.append(String.format("Line %d: %s\n", idx,
+									addLine));
+						}
+					}
+				}
+			} catch (IOException e) {
+				Log.e("GPS", "Failed to get address", e);
+			}
+		} else {
+			Toast.makeText(MainActivity.this, "No geocoding available",
+					Toast.LENGTH_LONG).show();
+		}
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

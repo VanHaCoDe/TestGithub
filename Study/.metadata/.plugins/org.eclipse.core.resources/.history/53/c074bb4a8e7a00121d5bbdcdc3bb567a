@@ -1,0 +1,59 @@
+package tranduythanh.com;
+
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class LightSensorActivity extends Activity implements SensorEventListener{
+
+	SensorManager sensorManager;
+	Sensor sensor;
+	private TextView txtmsg;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_light_sensor);
+		txtmsg=(TextView) findViewById(R.id.txtmsg);
+	}
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		sensorManager=(SensorManager) getSystemService(SENSOR_SERVICE);
+		sensor=sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
+		sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_NORMAL);
+	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		sensorManager.unregisterListener(this);
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_light_sensor, menu);
+		return true;
+	}
+
+	@Override
+	public void onAccuracyChanged(Sensor sensor, int accuracy) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onSensorChanged(SensorEvent event) {
+		// TODO Auto-generated method stub
+		if(event.sensor.getType()==Sensor.TYPE_LIGHT)
+		{
+			txtmsg.setText(event.values[0]+"");
+		}
+	}
+
+}

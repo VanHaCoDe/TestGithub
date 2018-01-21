@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.managefinance.pro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="bkap.android.managefinance.pro.AccountActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.ExpenseActivity"
+            android:label="@string/title_activity_expense"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.IncomeActivity"
+            android:label="@string/title_activity_income"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.ReportActivity"
+            android:label="@string/title_activity_report"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.CreateAccount"
+            android:label="@string/title_activity_create_account"
+            android:parentActivityName="bkap.android.managefinance.pro.AccountActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bkap.android.managefinance.pro.AccountActivity" />
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.CreateExpenses"
+            android:label="@string/title_activity_expenses"
+            android:parentActivityName="bkap.android.managefinance.pro.ExpenseActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bkap.android.managefinance.pro.ExpenseActivity" />
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.CreateIncome"
+            android:label="@string/title_activity_create_income"
+            android:parentActivityName="bkap.android.managefinance.pro.IncomeActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="bkap.android.managefinance.pro.IncomeActivity" />
+        </activity>
+        <activity
+            android:name="bkap.android.managefinance.pro.UpdateDeleteAccount"
+            android:label="@string/title_activity_update_delete_account"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

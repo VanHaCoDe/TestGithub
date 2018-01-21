@@ -1,0 +1,37 @@
+package tranduythanh.com;
+
+import java.util.ArrayList;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
+
+public class MainActivity extends Activity {
+
+	ArrayList<String>smsList;
+	ArrayAdapter<String>adapter;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		Button btn=(Button) findViewById(R.id.btnreadsms);
+		btn.setOnClickListener(this);
+		
+		ListView smsListView = (ListView) findViewById( R.id.lvsms );
+		smsList=new ArrayList<String>();
+		adapter= new ArrayAdapter<String>( this, android.R.layout.simple_list_item_1, smsList);
+	    smsListView.setAdapter(  adapter);
+	    smsListView.setOnItemClickListener( this );
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

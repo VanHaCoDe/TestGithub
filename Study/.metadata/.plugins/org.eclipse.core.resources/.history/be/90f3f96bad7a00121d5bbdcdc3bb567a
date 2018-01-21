@@ -1,0 +1,53 @@
+package tranduythanh.com;
+
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.TextView;
+
+public class GyroscopeSensorActivity extends Activity implements SensorEventListener{
+
+	SensorManager sensorManager;
+	Sensor sensor;
+	TextView txtmsg;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_gyroscope_sensor);
+		txtmsg=(TextView) findViewById(R.id.txtmsg);
+	}
+	@Override
+	protected void onResume() {
+		super.onResume();
+		sensorManager=(SensorManager) getSystemService(SENSOR_SERVICE);
+		sensor=sensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
+		sensorManager.registerListener(this, sensor,
+				SensorManager.SENSOR_DELAY_NORMAL);
+	}
+	@Override
+	protected void onPause() {
+		super.onPause();
+		sensorManager.unregisterListener(this);
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_gyroscope_sensor, menu);
+		return true;
+	}
+
+	@Override
+	public void onAccuracyChanged(Sensor arg0, int arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onSensorChanged(SensorEvent event) {
+		
+	}
+}

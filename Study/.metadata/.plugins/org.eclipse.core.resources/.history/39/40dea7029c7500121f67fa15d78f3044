@@ -1,0 +1,133 @@
+package tranduythanh.com;
+
+import android.content.ContentProvider;
+import android.content.ContentValues;
+import android.content.UriMatcher;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteQueryBuilder;
+import android.net.Uri;
+
+public class MyContentProvider extends ContentProvider {
+
+	Movie m;
+	public static final String CONTENT_URI =
+			"content://tranduythanh.com.own.contentprovider";
+
+	public static final int MATCH_ALL = 1;
+	public static final int MATCH_ID = 2;
+	public static final String AUTHORITY = "vn.w8_demo_ContentProvider_using_Custom";
+
+	private SQLiteOpenHelper sqliteOpenHelper;
+	private UriMatcher uriMatcher;
+
+	@Override
+	public int delete(Uri arg0, String arg1, String[] arg2) {
+		// TODO Auto-generated method stub
+
+		return 0;
+	}
+
+	@Override
+	public String getType(Uri uri) {
+		// TODO Auto-generated method stub
+		return "";
+		// return "w8_demo_ContentProvider_using_Custom/content/provider";
+	}
+
+	@Override
+	public Uri insert(Uri uri, ContentValues values) {
+		// TODO Auto-generated method stub
+		// Get an instance of writable database
+		// SQLiteDatabase db = this.sqliteOpenHelper.getWritableDatabase();
+
+		m.createMovie(values);
+		//
+		// or
+		// m.createMovie(values.getAsString(movie.MOVIE_NAME),
+		// values.getAsString(movie.MOVIE_DESC));
+		return null;
+	}
+
+	@Override
+	public boolean onCreate() {
+
+		m = new Movie(this.getContext());
+
+		sqliteOpenHelper = new DatabaseHelper(this.getContext());
+
+		// Setup the UriMatcher
+		this.uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
+		this.uriMatcher.addURI(AUTHORITY, "objects", MATCH_ALL);
+		this.uriMatcher.addURI(AUTHORITY, "object/#", MATCH_ID);
+
+		return true;
+	}
+	@Override
+	public Cursor query(Uri uri, String[] projection, String selection,
+			String[] selectionArgs, String sortOrder) {
+		Cursor cursor = null;
+		switch (uriMatcher.match(uri)) {
+		case MATCH_ALL:
+
+			SQLiteQueryBuilder builder = new SQLiteQueryBuilder();
+			builder.setTables(Movie.MOVIE_TABLE);
+			if (uriMatcher.match(uri) == MATCH_ID) {
+				builder.appendWhere("id=" + uri.getLastPathSegment());
+			}
+			cursor = builder.query(this.sqliteOpenHelper.getReadableDatabase(),
+					projection, selection, selectionArgs, null, null,
+					sortOrder, null);
+			cursor.setNotificationUri(this.getContext().getContentResolver(),
+					uri);
+
+			// cursor=
+			// this.sqliteOpenHelper.getReadableDatabase().query(movie.MOVIE_TABLE,
+			// projection, selection, selectionArgs, null, null, sortOrder);
+			// OR
+			// return m.fetchAllMovies();
+
+			break;
+		case MATCH_ID:
+			String selectionID = Movie.MOVIE_ID + "="
+					+ uri.getLastPathSegment();
+			cursor = this.sqliteOpenHelper.getReadableDatabase().query(
+					Movie.MOVIE_TABLE, projection, selectionID, selectionArgs,
+					null, null, null);
+			break;
+		default:
+
+			break;
+		}
+
+		return cursor;
+	}
+
+	@Override
+	public int update(Uri uri, ContentValues values, String selection,
+			String[] selectionArgs) {
+		// TODO Auto-generated method stub
+		switch (uriMatcher.match(uri)) {
+		case MATCH_ALL:
+			m.updateMovie(values, selection, selectionArgs);
+			break;
+
+		case MATCH_ID:
+			String whereClause = Movie.MOVIE_ID + "="
+					+ uri.getLastPathSegment();
+
+			this.sqliteOpenHelper.getReadableDatabase().update(movie.MOVIE_TABLE, values,
+					reClause, null);
+
+			break;
+		default:
+
+			break;
+		}
+
+		return 0;
+	}
+
+}
+
+}

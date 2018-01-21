@@ -1,0 +1,28 @@
+private void loadDataByVolley() {
+        JSONObject j = new JSONObject();
+        JSONObject qaram = new JSONObject();
+        j.put("username","hung");
+        j.put("password","1234456");
+        qaram.put("q", j.toString());
+
+        RequestData requestData = new RequestData();
+        BaseVolley.getInstance(this).addToRequestQueue(requestData.getRequest(Request.Method.POST, Key.Api.room,
+                qaram, Request.Priority.NORMAL, Key.Tag.getAnswer, false));
+        requestData.receiveResponse(new onResponse() {
+            @Override
+            public void successResponse(JSONObject successResponse) {
+
+                long endTime = SystemClock.elapsedRealtime();
+                long elapsedMilliSeconds = endTime - startTime;
+                tResult.setText(successResponse.toString());
+                double elapsedSeconds = elapsedMilliSeconds / 1000.0;
+                tTime.setText(elapsedSeconds + "");
+            }
+        }, new onErrorResponse() {
+            @Override
+            public void errorResponse(VolleyError errorResponse) {
+
+                tResult.setText(errorResponse.toString());
+            }
+        });
+    }

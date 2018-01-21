@@ -1,0 +1,18 @@
+package tranduythanh.com;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class MySmsReceiver extends BroadcastReceiver {
+
+	public static final String SMS_EXTRA="pdus";
+	public static final String SMS_URI="content://sms";
+	public static final String ADDRESS = "address";
+	public static final String BODY = "body";
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		
+	}
+
+}

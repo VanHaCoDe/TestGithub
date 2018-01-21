@@ -1,0 +1,262 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From HoloGraphLibrary:
+* HoloGraphLibrary-HoloGraphLibrary.iml
+* HoloGraphLibrary.iml
+* LICENSE.txt
+* NOTICE.txt
+* build.gradle
+* proguard-project.txt
+From ManageFinance.Pro:
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* holoGraphLibrary\
+* holoGraphLibrary\build.gradle
+* holoGraphLibrary\src\
+* holoGraphLibrary\src\main\
+* holoGraphLibrary\src\main\AndroidManifest.xml
+* holoGraphLibrary\src\main\java\
+* holoGraphLibrary\src\main\java\com\
+* holoGraphLibrary\src\main\java\com\echo\
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\Bar.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\BarGraph.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\BarStackSegment.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\Line.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\LineGraph.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\LinePoint.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\MultiSeriesDonutGraph.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\MultiSeriesDonutSlice.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\PieGraph.java
+* holoGraphLibrary\src\main\java\com\echo\holographlibrary\PieSlice.java
+* holoGraphLibrary\src\main\res\
+* holoGraphLibrary\src\main\res\drawable-hdpi\
+* holoGraphLibrary\src\main\res\drawable-hdpi\ic_launcher.png
+* holoGraphLibrary\src\main\res\drawable-mdpi\
+* holoGraphLibrary\src\main\res\drawable-mdpi\ic_launcher.png
+* holoGraphLibrary\src\main\res\drawable-xhdpi\
+* holoGraphLibrary\src\main\res\drawable-xhdpi\popup_black.9.png
+* holoGraphLibrary\src\main\res\values-v11\
+* holoGraphLibrary\src\main\res\values-v11\styles.xml
+* holoGraphLibrary\src\main\res\values-v14\
+* holoGraphLibrary\src\main\res\values-v14\styles.xml
+* holoGraphLibrary\src\main\res\values\
+* holoGraphLibrary\src\main\res\values\strings.xml
+* holoGraphLibrary\src\main\res\values\styles.xml
+* ic_launcher-web.png
+* manageFinancePro\
+* manageFinancePro\build.gradle
+* manageFinancePro\src\
+* manageFinancePro\src\main\
+* manageFinancePro\src\main\AndroidManifest.xml
+* manageFinancePro\src\main\java\
+* manageFinancePro\src\main\java\bkap\
+* manageFinancePro\src\main\java\bkap\android\
+* manageFinancePro\src\main\java\bkap\android\managefinance\
+* manageFinancePro\src\main\java\bkap\android\managefinance\adapter\
+* manageFinancePro\src\main\java\bkap\android\managefinance\adapter\AccountAdapter.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\adapter\ExpensesAdapter.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\adapter\IncomeAdapter.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\database\
+* manageFinancePro\src\main\java\bkap\android\managefinance\database\DatabaseHelper.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\database\ManageFinanceDatasource.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\entity\
+* manageFinancePro\src\main\java\bkap\android\managefinance\entity\TaikhoanEntity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\entity\ThuchiEntity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\AccountActivity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\CreateAccount.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\CreateExpenses.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\CreateIncome.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\ExpenseActivity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\FragmentChart.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\IncomeActivity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\ReportActivity.java
+* manageFinancePro\src\main\java\bkap\android\managefinance\pro\SettingActivity.java
+* manageFinancePro\src\main\java\src\
+* manageFinancePro\src\main\java\src\com\
+* manageFinancePro\src\main\java\src\com\echo\
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\Bar.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\BarGraph.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\BarStackSegment.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\Line.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\LineGraph.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\LinePoint.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\MultiSeriesDonutGraph.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\MultiSeriesDonutSlice.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\PieGraph.java
+* manageFinancePro\src\main\java\src\com\echo\holographlibrary\PieSlice.java
+* manageFinancePro\src\main\res\
+* manageFinancePro\src\main\res\anim\
+* manageFinancePro\src\main\res\anim\animation_layout_left.xml
+* manageFinancePro\src\main\res\anim\animation_layout_right.xml
+* manageFinancePro\src\main\res\drawable-hdpi\
+* manageFinancePro\src\main\res\drawable-hdpi\ic_launcher.png
+* manageFinancePro\src\main\res\drawable-hdpi\plus_64.png
+* manageFinancePro\src\main\res\drawable-mdpi\
+* manageFinancePro\src\main\res\drawable-mdpi\ic_launcher.png
+* manageFinancePro\src\main\res\drawable-xhdpi\
+* manageFinancePro\src\main\res\drawable-xhdpi\ic_launcher.png
+* manageFinancePro\src\main\res\drawable-xxhdpi\
+* manageFinancePro\src\main\res\drawable-xxhdpi\ic_launcher.png
+* manageFinancePro\src\main\res\drawable\
+* manageFinancePro\src\main\res\drawable\custombutton.xml
+* manageFinancePro\src\main\res\layout\
+* manageFinancePro\src\main\res\layout\activity_account.xml
+* manageFinancePro\src\main\res\layout\activity_create_account.xml
+* manageFinancePro\src\main\res\layout\activity_create_expenses.xml
+* manageFinancePro\src\main\res\layout\activity_create_income.xml
+* manageFinancePro\src\main\res\layout\activity_expense.xml
+* manageFinancePro\src\main\res\layout\activity_income.xml
+* manageFinancePro\src\main\res\layout\activity_report.xml
+* manageFinancePro\src\main\res\layout\activity_setting.xml
+* manageFinancePro\src\main\res\layout\fragment_chart.xml
+* manageFinancePro\src\main\res\layout\fragment_report.xml
+* manageFinancePro\src\main\res\layout\item_account.xml
+* manageFinancePro\src\main\res\layout\spinner.xml
+* manageFinancePro\src\main\res\menu\
+* manageFinancePro\src\main\res\menu\account.xml
+* manageFinancePro\src\main\res\menu\create_account.xml
+* manageFinancePro\src\main\res\menu\create_income.xml
+* manageFinancePro\src\main\res\menu\expense.xml
+* manageFinancePro\src\main\res\menu\expenses.xml
+* manageFinancePro\src\main\res\menu\income.xml
+* manageFinancePro\src\main\res\menu\report.xml
+* manageFinancePro\src\main\res\menu\setting.xml
+* manageFinancePro\src\main\res\menu\update_delete_account.xml
+* manageFinancePro\src\main\res\raw\
+* manageFinancePro\src\main\res\raw\airland.mp3
+* manageFinancePro\src\main\res\raw\beep_05.mp3
+* manageFinancePro\src\main\res\raw\open_door_3.mp3
+* manageFinancePro\src\main\res\values-v11\
+* manageFinancePro\src\main\res\values-v11\styles.xml
+* manageFinancePro\src\main\res\values-v14\
+* manageFinancePro\src\main\res\values-v14\styles.xml
+* manageFinancePro\src\main\res\values-w820dp\
+* manageFinancePro\src\main\res\values-w820dp\dimens.xml
+* manageFinancePro\src\main\res\values\
+* manageFinancePro\src\main\res\values\color.xml
+* manageFinancePro\src\main\res\values\dimens.xml
+* manageFinancePro\src\main\res\values\strings.xml
+* manageFinancePro\src\main\res\values\styles.xml
+* manageFinancePro\src\main\resources\
+* manageFinancePro\src\main\resources\.settings\
+* manageFinancePro\src\main\resources\.settings\org.eclipse.jdt.core.prefs
+* manageFinancePro\src\main\resources\AndroidManifest.xml
+* manageFinancePro\src\main\resources\HoloGraphLibrary-HoloGraphLibrary.iml
+* manageFinancePro\src\main\resources\HoloGraphLibrary.iml
+* manageFinancePro\src\main\resources\LICENSE.txt
+* manageFinancePro\src\main\resources\NOTICE.txt
+* manageFinancePro\src\main\resources\build.gradle
+* manageFinancePro\src\main\resources\proguard-project.txt
+* manageFinancePro\src\main\resources\project.properties
+* manageFinancePro\src\main\resources\res\
+* manageFinancePro\src\main\resources\res\drawable-hdpi\
+* manageFinancePro\src\main\resources\res\drawable-hdpi\ic_launcher.png
+* manageFinancePro\src\main\resources\res\drawable-mdpi\
+* manageFinancePro\src\main\resources\res\drawable-mdpi\ic_launcher.png
+* manageFinancePro\src\main\resources\res\drawable-xhdpi\
+* manageFinancePro\src\main\resources\res\drawable-xhdpi\popup_black.9.png
+* manageFinancePro\src\main\resources\res\values-v11\
+* manageFinancePro\src\main\resources\res\values-v11\styles.xml
+* manageFinancePro\src\main\resources\res\values-v14\
+* manageFinancePro\src\main\resources\res\values-v14\styles.xml
+* manageFinancePro\src\main\resources\res\values\
+* manageFinancePro\src\main\resources\res\values\strings.xml
+* manageFinancePro\src\main\resources\res\values\styles.xml
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In HoloGraphLibrary:
+* AndroidManifest.xml => holoGraphLibrary\src\main\AndroidManifest.xml
+* res\ => holoGraphLibrary\src\main\res\
+* src\ => holoGraphLibrary\src\main\java\
+In ManageFinance.Pro:
+* G:\Studing\Android\Project\HoloGraphLibrary\ => manageFinancePro\src\main\java\
+* G:\Studing\Android\Project\HoloGraphLibrary\.settings\org.eclipse.jdt.core.prefs => manageFinancePro\src\main\resources\.settings\org.eclipse.jdt.core.prefs
+* G:\Studing\Android\Project\HoloGraphLibrary\AndroidManifest.xml => manageFinancePro\src\main\resources\AndroidManifest.xml
+* G:\Studing\Android\Project\HoloGraphLibrary\build.gradle => manageFinancePro\src\main\resources\build.gradle
+* G:\Studing\Android\Project\HoloGraphLibrary\HoloGraphLibrary-HoloGraphLibrary.iml => manageFinancePro\src\main\resources\HoloGraphLibrary-HoloGraphLibrary.iml
+* G:\Studing\Android\Project\HoloGraphLibrary\HoloGraphLibrary.iml => manageFinancePro\src\main\resources\HoloGraphLibrary.iml
+* G:\Studing\Android\Project\HoloGraphLibrary\LICENSE.txt => manageFinancePro\src\main\resources\LICENSE.txt
+* G:\Studing\Android\Project\HoloGraphLibrary\NOTICE.txt => manageFinancePro\src\main\resources\NOTICE.txt
+* G:\Studing\Android\Project\HoloGraphLibrary\proguard-project.txt => manageFinancePro\src\main\resources\proguard-project.txt
+* G:\Studing\Android\Project\HoloGraphLibrary\project.properties => manageFinancePro\src\main\resources\project.properties
+* G:\Studing\Android\Project\HoloGraphLibrary\res\drawable-hdpi\ic_launcher.png => manageFinancePro\src\main\resources\res\drawable-hdpi\ic_launcher.png
+* G:\Studing\Android\Project\HoloGraphLibrary\res\drawable-mdpi\ic_launcher.png => manageFinancePro\src\main\resources\res\drawable-mdpi\ic_launcher.png
+* G:\Studing\Android\Project\HoloGraphLibrary\res\drawable-xhdpi\popup_black.9.png => manageFinancePro\src\main\resources\res\drawable-xhdpi\popup_black.9.png
+* G:\Studing\Android\Project\HoloGraphLibrary\res\values-v11\styles.xml => manageFinancePro\src\main\resources\res\values-v11\styles.xml
+* G:\Studing\Android\Project\HoloGraphLibrary\res\values-v14\styles.xml => manageFinancePro\src\main\resources\res\values-v14\styles.xml
+* G:\Studing\Android\Project\HoloGraphLibrary\res\values\strings.xml => manageFinancePro\src\main\resources\res\values\strings.xml
+* G:\Studing\Android\Project\HoloGraphLibrary\res\values\styles.xml => manageFinancePro\src\main\resources\res\values\styles.xml
+* AndroidManifest.xml => manageFinancePro\src\main\AndroidManifest.xml
+* assets\ => manageFinancePro\src\main\assets
+* res\ => manageFinancePro\src\main\res\
+* src\ => manageFinancePro\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

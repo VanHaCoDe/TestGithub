@@ -1,0 +1,7 @@
+package tranduythanh.com;
+
+import android.content.Intent;
+
+public class NewIntent extends Intent {
+
+}

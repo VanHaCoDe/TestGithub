@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/LearnMultiThreading_usingMessage2/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnMultiThreading_usingMessage2" sel-end="516" sel-start="0" stamp="1360832200860" type="android.widget.LinearLayout"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/LearnMultiThreading_usingMessage2/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnMultiThreading_usingMessage2" sel-end="1236" sel-start="1097" stamp="1360832282245" type="android.widget.LinearLayout"/>
+</session>

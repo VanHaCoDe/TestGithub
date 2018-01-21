@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/LearnWebservice_AddParameter_ObjectData/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnWebservice_AddParameter_ObjectData" sel-end="3481" sel-start="3173" stamp="1360992686139" type="android.widget.LinearLayout"/>
+</session>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/LearnExplicitIntent/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnExplicitIntent" sel-end="267" sel-start="0" stamp="1359875778302" type="android.widget.LinearLayout"/>&#x0A;<refactoring comment="Change Layout" description="Change Layout" file="/LearnExplicitIntent/res/layout/activity_child.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnExplicitIntent" sel-end="268" sel-start="0" stamp="1359876089947" type="android.widget.LinearLayout"/>
+</session>

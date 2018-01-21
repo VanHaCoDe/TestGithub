@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-4f0d5e8ede0f86e6e666d8cb1a5bf162.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v7-appcompat-bf1f31a559d2a5d5b6facbd80c792ae7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/holographlibrary-403e055bd5299ee298abba4c3c72ad69.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/appcompat_v7-156b9100de9f4d3e1b83b350bd297649.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

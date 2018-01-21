@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_demo"
+    android:layout_alignParentTop="true"
+    android:text="TextViewDemo"
+    android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/et_demo"
+        android:layout_below="@+id/tv_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="nhap van ban"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/bt_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="Test"
+        android:textColor="#d67878"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bt_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_test"
+        android:layout_centerInParent="true"
+        android:text="test2"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30dp" />
+</RelativeLayout>

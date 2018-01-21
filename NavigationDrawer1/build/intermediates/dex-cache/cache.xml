@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_95cc140c05d30bbe1c457eab92a599e65fa2e632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_7a2fca3b7b398471f82cef5da2b0565533cacb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be4bbf1d9db764ae9c8e0efcb03394763de43c15">
+        <dex dex="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_1d13155469246eb89dbceba1034dc05bffe561aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_ac9f6afd821389bb1e0800928c3d3a02c4b77f08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="456f0d0c6c06ab0fd8bae805c6697d89daf9c25b">
+        <dex dex="D:\Studing\Android\Project\NavigationDrawer1\app\build\intermediates\pre-dexed\debug\instant-run_1dc2c26cf6c0e58cbb7034ab9cfbf94b37d63ee0.jar" />
+    </item>
+
+</items>

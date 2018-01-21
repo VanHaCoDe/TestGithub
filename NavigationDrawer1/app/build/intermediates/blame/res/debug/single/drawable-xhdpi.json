@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\action_search.png",
+        "source": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\src\\main\\res\\drawable-xhdpi\\action_search.png"
+    },
+    {
+        "merged": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer.png",
+        "source": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_shadow.9.png",
+        "source": "D:\\Studing\\Android\\Project\\NavigationDrawer1\\app\\src\\main\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    }
+]

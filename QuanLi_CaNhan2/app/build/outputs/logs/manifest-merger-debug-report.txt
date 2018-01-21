@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:5:5-26:19
+	android:label
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:8:9-42
+	android:allowBackup
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:7:9-39
+	android:theme
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.example.thudemo.MainActivity2
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:12:13-46
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:11:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.thudemo.KhoanChi_acitive
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:19:9-54
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:19:19-51
+activity#com.example.thudemo.KhoanNo_acitivite
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:20:19-52
+activity#com.example.thudemo.KhoanThu_acitive
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:21:9-54
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:21:19-51
+activity#com.example.thudemo.khoanvay_activite
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:22:9-55
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:22:19-52
+activity#org.achartengine.GraphicalActivity
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:23:9-71
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:23:19-68
+activity#com.example.thudemo.test
+ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:24:9-25:20
+	android:name
+		ADDED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml:24:19-39
+uses-sdk
+INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Studing\Android\Project\QuanLi_CaNhan2\app\src\main\AndroidManifest.xml

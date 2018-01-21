@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBottom="@+id/pin_img_lc"
+    android:background="@drawable/khung"
+    android:id="@+id/pin">
+
+    <TextView
+        android:id="@+id/pin_tv_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin_tv_lcName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/pin_bt_nextpage"
+        android:layout_toRightOf="@+id/pin_img_lc"
+        android:text="Category name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/pin_tv_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin_tv_category_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/pin_bt_nextpage"
+        android:layout_toRightOf="@+id/pin_img_lc"
+        android:text="Adress"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/pin_img_lc"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <Button
+        android:id="@+id/pin_bt_nextpage"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/nextpage" />
+
+    <TextView
+        android:id="@+id/pin_tv_lcName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/pin_bt_nextpage"
+        android:layout_toRightOf="@+id/pin_img_lc"
+        android:text="Location Name"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"/>
+</RelativeLayout>

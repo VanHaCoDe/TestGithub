@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;drawable&apos;&#x0D;&#x0A;- Original project: &apos;Week4_GalleryActivity&apos;&#x0D;&#x0A;- Destination element: &apos;drawable&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     image4.jpg&#x0D;&#x0A;     image5.jpg&#x0D;&#x0A;     image6.jpg&#x0D;&#x0A;     image3.png&#x0D;&#x0A;     image1.JPG&#x0D;&#x0A;     image2.JPG" description="Copy files" element1="res/drawable-hdpi/image4.jpg" element2="res/drawable-hdpi/image5.jpg" element3="res/drawable-hdpi/image6.jpg" element4="res/drawable-hdpi/image3.png" element5="res/drawable-hdpi/image1.JPG" element6="res/drawable-hdpi/image2.JPG" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1359592495777" target="/TestLayout/res/drawable" units="0" version="1.0"/>
+</session>

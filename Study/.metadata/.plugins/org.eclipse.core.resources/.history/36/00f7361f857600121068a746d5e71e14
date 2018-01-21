@@ -1,0 +1,36 @@
+package tranduythanh.com;
+
+import java.util.concurrent.atomic.AtomicBoolean;
+
+import android.os.Bundle;
+import android.os.Handler;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+
+public class MainActivity extends Activity {
+
+	Button btndrawbutton;
+	EditText editdrawbutton;
+	LinearLayout llbutton;
+	Handler handler;
+	AtomicBoolean isrunning=new AtomicBoolean(false);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		btndrawbutton=(Button) findViewById(R.id.btndrawbutton);
+		editdrawbutton=(EditText) findViewById(R.id.editdrawbutton);
+		llbutton=(LinearLayout) findViewById(R.id.llbutton);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

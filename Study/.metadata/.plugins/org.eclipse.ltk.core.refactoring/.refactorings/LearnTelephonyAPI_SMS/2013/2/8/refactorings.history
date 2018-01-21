@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/LearnTelephonyAPI_SMS/res/layout/activity_main.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/LearnTelephonyAPI_SMS" sel-end="516" sel-start="0" stamp="1361195440622" type="android.widget.LinearLayout"/>
+</session>

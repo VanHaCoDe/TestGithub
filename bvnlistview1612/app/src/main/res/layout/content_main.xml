@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_content"
+        android:layout_alignParentTop="true"
+        android:text="Ban Lam Gi Bay Gio?"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_1"
+        android:layout_below="@+id/tv_content"
+        android:hint="Ban Muon Them Viec Gi?"
+        android:layout_marginTop="10dp"
+
+        />
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/ll_1"
+     android:layout_below="@+id/edt_1"
+     android:weightSum="3"
+     android:orientation="horizontal"
+     >
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/bt_ath"
+         android:layout_weight="1"
+         android:text="add to header"
+         />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/bt_insert"
+         android:layout_marginRight="5dp"
+         android:layout_marginLeft="5dp"
+         android:layout_weight="1"
+         android:text="insert"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/bt_atf"
+         android:layout_weight="1"
+         android:text="add to footer"
+         />
+ </LinearLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_1"
+        android:layout_below="@+id/ll_1"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        ></ListView>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_clear"
+        android:layout_below="@+id/lv_1"
+
+        android:layout_marginTop="10dp"
+        android:text="clear all"
+android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

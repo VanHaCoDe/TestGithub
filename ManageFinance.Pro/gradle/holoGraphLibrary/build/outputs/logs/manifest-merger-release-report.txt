@@ -1,0 +1,9 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Studing\Android\Project\ManageFinance.Pro\holoGraphLibrary\src\main\AndroidManifest.xml:1:1-4:12
+	xmlns:android
+		ADDED from G:\Studing\Android\Project\ManageFinance.Pro\holoGraphLibrary\src\main\AndroidManifest.xml:1:11-69
+	package
+		ADDED from G:\Studing\Android\Project\ManageFinance.Pro\holoGraphLibrary\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from G:\Studing\Android\Project\ManageFinance.Pro\holoGraphLibrary\src\main\AndroidManifest.xml
+		INJECTED from G:\Studing\Android\Project\ManageFinance.Pro\holoGraphLibrary\src\main\AndroidManifest.xml

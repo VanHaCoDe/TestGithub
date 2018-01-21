@@ -1,0 +1,20 @@
+package tranduythanh.com;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.widget.Button;
+import android.widget.VideoView;
+
+public class MainActivity extends Activity {
+
+	Button btnplay;
+	VideoView video;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		btnplay=(Button) findViewById(R.id.btnplayvideo);
+		video=(VideoView) findViewById(R.id.videoView1);
+	}
+
+}

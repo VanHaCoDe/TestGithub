@@ -1,0 +1,31 @@
+package tranduythanh.com;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+	public void startNotification()
+	{
+		NotificationManager notifiManager=
+				(NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+		Notification notifiDetail=new Notification(icon, "Alert me!", System.currentTimeMillis());
+		
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}
